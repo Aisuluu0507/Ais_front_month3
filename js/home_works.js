@@ -15,20 +15,64 @@ gmailButton.addEventListener('click',()=>{
     }
 })
 
-//////////////////////////DZ2
-const block1 = document.querySelector(".parent_block");
-const block2 = document.querySelector(".child_block");
-let num = 0;
 
-function animation() {
-    if (num < 440) {
-        num ++;
-        block2.style.left = num + "px";
-        setTimeout(animation, 100);
+//////////////////////////DZ2
+const moveChaildBlock  = document.querySelector('.child_block')
+let numX =0
+let numY =0
+const animation = () => {
+    if (numX <448 && numY <= 0) {
+        numX++
+        moveChaildBlock .style.left = `${numX}px`
+        setTimeout(animation, 100)
+    }else if (numX >=448 && numY < 448) {
+        numY++
+        moveChaildBlock .style.top = `${numY}px`
+        setTimeout(animation, 100)
+    }else if (numX > 0 && numY >= 448) {   ////////////////////ПРОДОЛЖЕНИЕ
+        numX--
+        moveChaildBlock .style.left =`${numX}px`
+        setTimeout(animation,100)
+    }else if (numX >= 0 && numY > 0) {
+        numY--
+        moveChaildBlock .style.top =`${numY}px`
+        setTimeout(animation,100)
     }
 }
+animation()
+////////////////////////////////////THE END
 
-animation();
+//////////////////////////СЕКУНДАМЕР 
+let secondsS = document.getElementById('secondsS')
+let start = document.getElementById('start')
+let stop = document.getElementById('stop')
+let reset = document.getElementById('reset')
 
-//////////////////////////THE END
+let time = 0
 
+function sec() {
+  time++;
+  secondsS.textContent = `${time.toString().padStart(1, '0')}`
+}
+
+start.addEventListener('click', () => {
+  interval = setInterval(sec, 10)
+  start.disabled = true
+  stop.disabled = false
+  reset.disabled = false
+})
+
+stop.addEventListener('click', () => {
+  clearInterval(interval)
+  start.disabled = false
+  stop.disabled = true
+});
+reset.addEventListener('click', () => {
+    clearInterval(interval)
+    time = 0
+    secondsS.textContent = '0';
+    start.disabled = false
+    stop.disabled = true
+    reset.disabled = true
+})
+//////////////////////////////////////THE END

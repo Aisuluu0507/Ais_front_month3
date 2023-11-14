@@ -10,7 +10,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid var(--orange);
+    border: 1px solid rgb(231 141 157);
     height: 300px;
     border-radius: 20px;
     align-items: center;
@@ -25,6 +25,8 @@
 .form_gmail button {
     width: 100%;
     margin: 20px 0;
+    color: rgb(236, 193, 193);
+    border: 1px solid rgb(231 141 157);
 }
 
 /* MOVE BLOCK */
@@ -37,7 +39,7 @@
 .parent_block {
     height: 500px;
     width: 500px;
-    border: 1px solid var(--orange);
+    border: 1px solid rgb(231 141 157);
     position: relative;
     margin: 0 auto;
     border-radius: 20px;
@@ -47,7 +49,7 @@
 .inner_parent_block {
     height: 400px;
     width: 400px;
-    border: 1px solid var(--orange);
+    border: 1px solid pink;
     border-radius: 18px;
 }
 
@@ -56,8 +58,8 @@
     top: 0;
     width: 50px;
     height: 50px;
-    border: 5px dashed red;
-    border-radius: 50%;
+    border: 5px dashed #79d986;
+    border-radius: 20px;
     transition: all 0.1s ease;
     animation: rotate 0.1s linear infinite;
 }
@@ -96,7 +98,7 @@
     inset: 0;
     margin: auto;
     font-style: normal;
-    transform: rotate(var(--rotate)) translateX(var(--dail-size));
+    transform: rotate(rgb(231 141 157)) translateX(var(--dail-size));
 }
 .spike:nth-child(5n+1) {
     box-shadow: -7px 0 #fff9;
@@ -107,7 +109,7 @@
     right: 22px;
     top: -10px;
     transition: 1s linear;
-    transform: rotate(calc( var(--dRotate) - var(--rotate)));
+    transform: rotate(calc( var(--dRotate) - rgb(231 141 157)));
 }
 
 .seconds {
@@ -115,7 +117,7 @@
     --dail-size: calc((var(--clock-size)/ 2) - 8px);
     font-weight: 800;
     font-size: 18px;
-    transform: rotate(calc( -1 * var(--dRotate)));
+    transform: rotate(calc( -1 * rgb(231 141 157)));
     position: absolute;
     inset: 0;
     margin: auto;
@@ -125,7 +127,7 @@
 .minutes {
     --dail-size: calc((var(--clock-size)/ 2) - 65px);
     font-size: 16px;
-    transform: rotate(calc( -1 * var(--dRotate)));
+    transform: rotate(calc( -1 * rgb(231 141 157)));
     position: absolute;
     inset: 0;
     margin: auto;
@@ -181,14 +183,14 @@
     font-size: 80px;
     height: 100px;
     width: 100%;
-    border-bottom: 1px solid var(--orange);
+    border-bottom: 1px solid rgb(231 141 157) ;
     margin-top: 40px;
 }
 
 .time_block {
     display: flex;
     width: 500px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .stopwatch {
@@ -201,4 +203,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+.footer h2{
+    
+    color: #de9f90
 }

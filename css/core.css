@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(231 141 157);
+    gap: 50px;
 }
 
 .container {
@@ -19,9 +21,9 @@ body {
     height: 50px;
     font-size: 20px;
     cursor: pointer;
-    border: 1px solid var(--orange);
+    border: 1px solid var rgb(231 141 157);
     background: black;
-    color: var(--orange);
+    color: rgb(231 141 157);
     border-radius: 8px;
 }
 
@@ -31,7 +33,7 @@ body {
 
 .btn:active {
     background: #56585D;
-    border: 2px solid var(--orange);
+    border: 2px solid rgb(231 141 157);
 }
 
 a {
@@ -63,7 +65,7 @@ h2 {
 h3 {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color:  #de9f90;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 600;
@@ -82,7 +84,7 @@ strong {
 
 label {
     font-size: 24px;
-    color: var(--orange);
+    color: rgb(231 141 157);
 }
 
 input {
@@ -90,13 +92,13 @@ input {
     height: 50px;
     font-size: 20px;
     padding-left: 5px;
-    color: var(--orange);
+    color: rgb(231 141 157);
     background: black;
-    border: 2px solid var(--orange);
+    border: 2px solid rgb(231 141 157);
 }
 
 .checker {
-    color: white;
+    color:rgb(231 141 157);
     font-size: 30px;
 }
 
@@ -104,7 +106,7 @@ input {
     display: block;
     width: 100px;
     height: 100px;
-    background: var(--orange);
+    background: rgb(231 141 157);
     color: black;
     font-size: 20px;
     text-transform: uppercase;
