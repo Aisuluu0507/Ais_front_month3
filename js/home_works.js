@@ -24,19 +24,19 @@ const animation = () => {
     if (numX <448 && numY <= 0) {
         numX++
         moveChaildBlock .style.left = `${numX}px`
-        setTimeout(animation, 100)
+        setTimeout(animation, 10)
     }else if (numX >=448 && numY < 448) {
         numY++
         moveChaildBlock .style.top = `${numY}px`
-        setTimeout(animation, 100)
+        setTimeout(animation, 10)
     }else if (numX > 0 && numY >= 448) {   ////////////////////ПРОДОЛЖЕНИЕ
         numX--
         moveChaildBlock .style.left =`${numX}px`
-        setTimeout(animation,100)
+        setTimeout(animation,10)
     }else if (numX >= 0 && numY > 0) {
         numY--
         moveChaildBlock .style.top =`${numY}px`
-        setTimeout(animation,100)
+        setTimeout(animation,10)
     }
 }
 animation()
@@ -56,7 +56,7 @@ function sec() {
 }
 
 start.addEventListener('click', () => {
-  interval = setInterval(sec, 10)
+  interval = setInterval(sec, 1000)
   start.disabled = true
   stop.disabled = false
   reset.disabled = false
@@ -75,4 +75,50 @@ reset.addEventListener('click', () => {
     stop.disabled = true
     reset.disabled = true
 })
+//////////////////////////////////////THE END
+
+
+//TAB SLIDER
+const tabsContent = document.querySelectorAll('.tab_content_block')
+const tabs = document.querySelectorAll('.tab_content_item')
+const tabsParent = document.querySelector('.tab_content_items')
+
+let currentTab = 0;
+const hideTabContent = () => {
+    tabsContent.forEach((item) => {
+        item.style.display = 'none'
+    })
+    tabs.forEach((item) => {
+        item.classList.remove('tab_content_item_active')
+    })
+}
+
+const showTabsContent = (i = 0) => {
+    tabsContent[i].style.display = 'block'
+    tabs[i].classList.add('tab_content_item_active')
+}
+
+const switchTab = () => {
+    hideTabContent();
+    currentTab = (currentTab + 1) % tabs.length
+    showTabsContent(currentTab)
+};
+
+
+hideTabContent()
+showTabsContent()
+setInterval(switchTab, 3000)
+
+tabsParent.onclick = (event) => {
+    if (event.target.classList.contains('tab_content_item')) {
+        tabs.forEach((item, i) => {
+            if (event.target === item) {
+                hideTabContent()
+                currentTab = i
+                showTabsContent(currentTab)
+            }
+        })
+    }
+}
+
 //////////////////////////////////////THE END
