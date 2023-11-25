@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f20379e-54c6-43ff-8d2b-b608346de57c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lessons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lessons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/home_works.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home_works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lessons.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Yel7YlBkAgbDGcfLKDpBKYaJVr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MAMP/htdocs/DZ3_Aisuluu_31-03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="lesson.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="lesson.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f20379e-54c6-43ff-8d2b-b608346de57c" name="Changes" comment="" />
+      <created>1700893761692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700893761692</updated>
+      <workItem from="1700893764194" duration="136000" />
+      <workItem from="1700893917264" duration="18000" />
+      <workItem from="1700893945939" duration="14000" />
+      <workItem from="1700893970938" duration="65000" />
+      <workItem from="1700894387372" duration="619000" />
+      <workItem from="1700897686299" duration="40000" />
+      <workItem from="1700897741635" duration="128000" />
+      <workItem from="1700898086053" duration="22000" />
+      <workItem from="1700898840836" duration="673000" />
+      <workItem from="1700899532993" duration="5082000" />
+      <workItem from="1700906301431" duration="984000" />
+      <workItem from="1700907352196" duration="121000" />
+      <workItem from="1700909872600" duration="6606000" />
+      <workItem from="1700918451555" duration="17000" />
+      <workItem from="1700918514757" duration="16000" />
+      <workItem from="1700918554249" duration="213000" />
+      <workItem from="1700918791989" duration="72000" />
+      <workItem from="1700918879257" duration="2486000" />
+      <workItem from="1700921411362" duration="20000" />
+      <workItem from="1700921439360" duration="469000" />
+      <workItem from="1700921958842" duration="79000" />
+      <workItem from="1700922060227" duration="22000" />
+      <workItem from="1700922118774" duration="90000" />
+      <workItem from="1700922231738" duration="49000" />
+      <workItem from="1700922312765" duration="56000" />
+      <workItem from="1700922383634" duration="135000" />
+      <workItem from="1700922530638" duration="84000" />
+      <workItem from="1700922626868" duration="157000" />
+      <workItem from="1700922831614" duration="17000" />
+      <workItem from="1700922897660" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

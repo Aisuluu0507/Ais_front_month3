@@ -16,44 +16,90 @@ phoneButton.addEventListener('click',() =>{
 })
 
 //TAB SLIDER
-const tabsContent = document.querySelectorAll('.tab_content_block')
-const tabs = document.querySelectorAll('.tab_content_item')
-const tabsParent = document.querySelector('.tab_content_items')
 
-let currentTab = 0;
-const hideTabContent = () => {
-    tabsContent.forEach((item) => {
-        item.style.display = 'none'
-    })
-    tabs.forEach((item) => {
-        item.classList.remove('tab_content_item_active')
-    })
-}
+const cakesBlock =document.querySelector('.cakes')
 
-const showTabsContent = (i = 0) => {
-    tabsContent[i].style.display = 'block'
-    tabs[i].classList.add('tab_content_item_active')
-}
+const cakes =[
+    {
+        name: ' Шоколадный',
+        recipe: '../Мука 300гр, какао-порошок 2ст ложки, сливочное масло 200гр, яйца 5шт, сахар 150гр, разрыхлитель 1ч.л',
+        price:1500,
+        photo:'../images/шоколадный торт.jpg'
+    },
+    {
+        name:'Тирамису',
+        recipe:'яйца 6шт, слив.сыр Маскарпоне 500г, сахар 150г, печенье Савоярди 250гр, кофе экспрессо 300мл, какао-порошок 1-2ст.л',
+        price:700,
+        photo:'../images/тирамису.jpg'
+    },
+    {
+        name:'Молочная девочка',
+        recipe: 'Сгущенное молоко 600гр, яйцо 3шт, мука 240гр, разрыхлитель 15гр, творожный сыр 500гр, сливки 33-38% 150гр, сахарная пудра 150гр',
+        price:1600,
+        photo:'../images/молочная девочка.jpg'
+    },
+    {
+        name:'Сникерс',
+        recipe: 'сливочное масло 200гр, сахар 400гр, яйцо 3шт, куфир 400мл, мука 350гр, какао-порошок 30гр, разрыхлитель 10гр, ванильный сахар 15гр',
+        price:2250,
+        photo:'../images/красный бархат.jpg'
+    },
+]
 
-const switchTab = () => {
-    hideTabContent();
-    currentTab = (currentTab + 1) % tabs.length
-    showTabsContent(currentTab)
-};
+cakes.forEach((cake) => {
+    const cakeBlock = document.createElement('div')
+    cakeBlock.setAttribute('class','cakeCard')
+    cakeBlock.innerHTML =`
+    <img src="${cake.photo ? cake.photo:defaultUserPhoto}" alt="img">
+    <h1>Name:${cake.name}</h1>
+    <span>Recipe:${cake.recipe}</span>
+    <p>Price:${cake.price}</p>
+    `
+    cakesBlock.append(cakeBlock)
+
+})
+
+///converter
 
 
-hideTabContent()
-showTabsContent()
-setInterval(switchTab, 3000)
 
-tabsParent.onclick = (event) => {
-    if (event.target.classList.contains('tab_content_item')) {
-        tabs.forEach((item, i) => {
-            if (event.target === item) {
-                hideTabContent()
-                currentTab = i
-                showTabsContent(currentTab)
+const somInput = document.querySelector('#som')
+const usdInput = document.querySelector('#usd')
+const kztInput = document.querySelector('#kzt')
+
+const converter = (element, targetElement, element2, type) => {
+    element.addEventListener('input', () => {
+        const request = new XMLHttpRequest()
+        request.open('GET', '../data/converter.json')
+        request.setRequestHeader('Content-type', 'application/json')
+        request.send()
+
+        request.onload = () => {
+            const changes = JSON.parse(request.response)
+            switch (type) {
+                case 'som':
+                    targetElement.value = (element.value / changes.usd).toFixed(2);
+                    element2.value = (element.value / changes.kzt).toFixed(2);
+                    break;
+                case "usd":
+                    targetElement.value = (element.value * changes.usd).toFixed(2);
+                    element2.value = (element.value * changes.kztUsd).toFixed(2);
+                    break;
+                case "kzt":
+                    targetElement.value = (element.value * changes.usdKzt).toFixed(2);
+                    element2.value = (element.value * changes.kzt).toFixed(2);
+                    break;
+                default:
+                    break;
             }
-        })
-    }
+            element.value === "" ? targetElement.value = "" : null
+            element.value === "" ? element2.value = "" : null
+        }
+    })
 }
+
+
+
+converter(somInput, usdInput, kztInput, 'som')
+converter(usdInput, somInput, kztInput, 'usd')
+converter(kztInput, usdInput, somInput, 'kzt')
