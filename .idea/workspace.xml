@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f20379e-54c6-43ff-8d2b-b608346de57c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/image1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/imagesss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/развалины.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/торты.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/цюрих.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home_works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home_works.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/lessons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lessons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/чизкейк.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/чизкейк.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/home_works.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home_works.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_works.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lessons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/monster.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/monster.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MAMP/htdocs/DZ3_Aisuluu_31-03&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MAMP/htdocs/DZ3_Aisuluu_31-03/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -46,6 +60,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\DZ3_Aisuluu_31-03\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\DZ3_Aisuluu_31-03\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="lesson.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="lesson.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
@@ -89,6 +111,129 @@
       <workItem from="1700922626868" duration="157000" />
       <workItem from="1700922831614" duration="17000" />
       <workItem from="1700922897660" duration="83000" />
+      <workItem from="1700923067640" duration="1232000" />
+      <workItem from="1700924325258" duration="1933000" />
+      <workItem from="1700979581511" duration="1240000" />
+      <workItem from="1700980891306" duration="190000" />
+      <workItem from="1700981103415" duration="190000" />
+      <workItem from="1700981305235" duration="3000" />
+      <workItem from="1700983070076" duration="21000" />
+      <workItem from="1700985151330" duration="15000" />
+      <workItem from="1700989818364" duration="3000" />
+      <workItem from="1700989852988" duration="2000" />
+      <workItem from="1700991924631" duration="91000" />
+      <workItem from="1700992029775" duration="20000" />
+      <workItem from="1700992063712" duration="47000" />
+      <workItem from="1700992166036" duration="15000" />
+      <workItem from="1700992856700" duration="13000" />
+      <workItem from="1700992887174" duration="14000" />
+      <workItem from="1700992912226" duration="31000" />
+      <workItem from="1700992985621" duration="19000" />
+      <workItem from="1700993063113" duration="47000" />
+      <workItem from="1700993150805" duration="36000" />
+      <workItem from="1700993210806" duration="17000" />
+      <workItem from="1700993324879" duration="2000" />
+      <workItem from="1700993331358" duration="3000" />
+      <workItem from="1700993391988" duration="1899000" />
+      <workItem from="1700995339498" duration="60000" />
+      <workItem from="1700995415449" duration="6000" />
+      <workItem from="1700995432902" duration="53000" />
+      <workItem from="1700995494251" duration="725000" />
+      <workItem from="1700996261793" duration="614000" />
+      <workItem from="1700996900778" duration="87000" />
+      <workItem from="1700997006719" duration="132000" />
+      <workItem from="1700997171788" duration="733000" />
+      <workItem from="1700997957962" duration="7000" />
+      <workItem from="1700997997949" duration="9000" />
+      <workItem from="1700998020625" duration="14000" />
+      <workItem from="1700998089065" duration="16000" />
+      <workItem from="1700998119323" duration="15000" />
+      <workItem from="1700998144025" duration="13000" />
+      <workItem from="1700998557139" duration="289000" />
+      <workItem from="1700998873932" duration="2480000" />
+      <workItem from="1701001401779" duration="1808000" />
+      <workItem from="1701003272990" duration="28000" />
+      <workItem from="1701003349165" duration="60000" />
+      <workItem from="1701003487443" duration="3961000" />
+      <workItem from="1701007576243" duration="62000" />
+      <workItem from="1701007671843" duration="35000" />
+      <workItem from="1701007771658" duration="47000" />
+      <workItem from="1701007835715" duration="210000" />
+      <workItem from="1701008114594" duration="1825000" />
+      <workItem from="1701010008567" duration="1317000" />
+      <workItem from="1701011364374" duration="7000" />
+      <workItem from="1701011380891" duration="11000" />
+      <workItem from="1701011422199" duration="71000" />
+      <workItem from="1701011718002" duration="726000" />
+      <workItem from="1701012484952" duration="6000" />
+      <workItem from="1701012508878" duration="8000" />
+      <workItem from="1701012556534" duration="16000" />
+      <workItem from="1701012594793" duration="8000" />
+      <workItem from="1701012621829" duration="212000" />
+      <workItem from="1701014689277" duration="1651000" />
+      <workItem from="1701016386689" duration="24000" />
+      <workItem from="1701016981266" duration="1606000" />
+      <workItem from="1701084104630" duration="83000" />
+      <workItem from="1701084202058" duration="2025000" />
+      <workItem from="1701086392690" duration="23000" />
+      <workItem from="1701086438112" duration="30000" />
+      <workItem from="1701087010331" duration="18000" />
+      <workItem from="1701087042991" duration="108000" />
+      <workItem from="1701087196934" duration="796000" />
+      <workItem from="1701088272059" duration="73000" />
+      <workItem from="1701088410564" duration="366000" />
+      <workItem from="1701088797272" duration="2153000" />
+      <workItem from="1701090992563" duration="26000" />
+      <workItem from="1701091084226" duration="328000" />
+      <workItem from="1701091569136" duration="59000" />
+      <workItem from="1701091763006" duration="49000" />
+      <workItem from="1701091844215" duration="188000" />
+      <workItem from="1701092068352" duration="147000" />
+      <workItem from="1701092237803" duration="172000" />
+      <workItem from="1701092425206" duration="188000" />
+      <workItem from="1701092728971" duration="19000" />
+      <workItem from="1701092770972" duration="172000" />
+      <workItem from="1701093019483" duration="29000" />
+      <workItem from="1701093112611" duration="25000" />
+      <workItem from="1701093188949" duration="73000" />
+      <workItem from="1701093314930" duration="4147000" />
+      <workItem from="1701097993910" duration="19000" />
+      <workItem from="1701098081366" duration="173000" />
+      <workItem from="1701098288255" duration="23000" />
+      <workItem from="1701098329740" duration="17000" />
+      <workItem from="1701098368127" duration="153000" />
+      <workItem from="1701098591036" duration="361000" />
+      <workItem from="1701098980601" duration="354000" />
+      <workItem from="1701099440868" duration="491000" />
+      <workItem from="1701099991661" duration="27000" />
+      <workItem from="1701100101631" duration="14000" />
+      <workItem from="1701100141909" duration="10000" />
+      <workItem from="1701100163445" duration="20000" />
+      <workItem from="1701100277038" duration="638000" />
+      <workItem from="1701100939212" duration="1406000" />
+      <workItem from="1701102388891" duration="497000" />
+      <workItem from="1701102915720" duration="5872000" />
+      <workItem from="1701171777031" duration="36000" />
+      <workItem from="1701171835794" duration="436000" />
+      <workItem from="1701172295322" duration="265000" />
+      <workItem from="1701172566743" duration="12000" />
+      <workItem from="1701172581905" duration="1094000" />
+      <workItem from="1701178471684" duration="3650000" />
+      <workItem from="1701182525162" duration="3506000" />
+      <workItem from="1701186450558" duration="34000" />
+      <workItem from="1701186532378" duration="608000" />
+      <workItem from="1701187155788" duration="9000" />
+      <workItem from="1701187436052" duration="510000" />
+      <workItem from="1701188031422" duration="84000" />
+      <workItem from="1701188119515" duration="55000" />
+      <workItem from="1701188195888" duration="23000" />
+      <workItem from="1701188237651" duration="52000" />
+      <workItem from="1701188312088" duration="91000" />
+      <workItem from="1701188407170" duration="1206000" />
+      <workItem from="1701238976026" duration="3253000" />
+      <workItem from="1701248553787" duration="110000" />
+      <workItem from="1701248668851" duration="803000" />
+      <workItem from="1701249486687" duration="310000" />
     </task>
     <servers />
   </component>

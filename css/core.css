@@ -1,14 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: rgb(231 141 157);
-    gap: 50px;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    text-align: center;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
+   /*margin-bottom: 63px;*/
+   /* margin-top: 50px;*/
 }
 
 body {
@@ -17,23 +18,53 @@ body {
 }
 
 .btn {
-    width: 250px;
-    height: 50px;
+    width: 300px;
+    height: 60px;
     font-size: 20px;
     cursor: pointer;
-    border: 1px solid var rgb(231 141 157);
+    border: 1px solid pink;
     background: black;
     color: rgb(231 141 157);
-    border-radius: 8px;
+    border-radius: 40px;
+}
+.image{
+    margin: -70px 0px 0px -200px;
+    width: 280px;
+    height: 250px;
+    border: 1px solid pink;
+    border-radius: 25px;
+    position: static;
+    margin-right: 2772px;
+}
+.image1{
+    margin: -100px 0px 0px 1000px;
+    width: 280px;
+    height: 250px;
+    border: 1px solid pink;
+    border-radius: 25px;
+    position: static;
 }
 
-.btn:hover {
-    background: #414349;
-}
-
-.btn:active {
-    background: #56585D;
-    border: 2px solid rgb(231 141 157);
+.photo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 200px;
+    height: 170px;
+    bottom: 350px;
+    left: 50%;
+    border: 1px solid #3A4443;
+    border-radius: 25px;
+    margin-left: 1160px;
+    margin-top: -11px;
+    margin-right: 800px;
+    position: static;
 }
 
 a {
@@ -46,8 +77,8 @@ li {
 
 h1 {
     text-align: center;
-    font-size: 70px;
-    color: white;
+    font-size: 30px;
+    color: #5a3a51;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 600;
@@ -56,7 +87,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: rgb(231 141 157);
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 600;
@@ -65,26 +96,27 @@ h2 {
 h3 {
     text-align: center;
     font-size: 30px;
-    color:  #de9f90;
-    margin: 0 auto;
+    color: #2c2d2f;
+    margin: 30px;
     text-transform: uppercase;
     font-weight: 600;
+
 }
 
 h4 {
-    font-size: 15px;
-    color: #de9f90;
+    font-size: 24px;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 strong {
-    color: #F79300;
+    color:#5a3a51;
 }
 
 label {
     font-size: 24px;
-    color: rgb(231 141 157);
+    color: var(--orange);
 }
 
 input {
@@ -92,13 +124,14 @@ input {
     height: 50px;
     font-size: 20px;
     padding-left: 5px;
-    color: rgb(231 141 157);
+    color: var(--orange);
     background: black;
-    border: 2px solid rgb(231 141 157);
+    border: 2px solid var(--orange);
+    border-radius: 20px;
 }
 
 .checker {
-    color:rgb(231 141 157);
+    color: white;
     font-size: 30px;
 }
 
@@ -106,7 +139,7 @@ input {
     display: block;
     width: 100px;
     height: 100px;
-    background: rgb(231 141 157);
+    background: var(--orange);
     color: black;
     font-size: 20px;
     text-transform: uppercase;

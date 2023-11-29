@@ -1,19 +1,19 @@
 //phone checker
 
-const phoneInput = document.querySelector('#phone_input')
-const phoneButton = document.querySelector('#phone_button')
-const phoneSpan = document.querySelector('#phone_result')
-
-const regExp = /\+996 [2579]\d{2} \d{2}-\d{2}-\d{2}/
-phoneButton.addEventListener('click',() =>{
-    if(regExp.test(phoneInput.value)){
-        phoneSpan.innerHTML = 'OK'
-        phoneSpan.style.color = 'green'
-    } else{
-        phoneSpan.innerHTML = ' NOT OK'
-        phoneSpan.style.color = 'red'
-    }
-})
+// const phoneInput = document.querySelector('#phone_input')
+// const phoneButton = document.querySelector('#phone_button')
+// const phoneSpan = document.querySelector('#phone_result')
+//
+// const regExp = /\+996 [2579]\d{2} \d{2}-\d{2}-\d{2}/
+// phoneButton.addEventListener('click',() =>{
+//     if(regExp.test(phoneInput.value)){
+//         phoneSpan.innerHTML = 'OK'
+//         phoneSpan.style.color = 'green'
+//     } else{
+//         phoneSpan.innerHTML = ' NOT OK'
+//         phoneSpan.style.color = 'red'
+//     }
+// })
 
 //TAB SLIDER
 
@@ -103,3 +103,47 @@ const converter = (element, targetElement, element2, type) => {
 converter(somInput, usdInput, kztInput, 'som')
 converter(usdInput, somInput, kztInput, 'usd')
 converter(kztInput, usdInput, somInput, 'kzt')
+
+////card switcher
+const cards = document.querySelector('.card')
+const btnNext = document.querySelector('#btn-next')
+const btnPrev = document.querySelector('#btn-prev')
+
+const card = document.getElementById('card');
+let count = 1;
+
+function switch_card(cardNumber) {
+    fetch(`https://jsonplaceholder.typicode.com/todos/${cardNumber}`)
+        .then(response => response.json())
+        .then(data => {
+            cards.innerHTML = `
+                <p>${data.title}</p>
+                <p style="color: ${data.completed ? 'green' : 'red'}">${data.completed}</p>
+                <span>${data.id}</span>
+            `;
+        });
+}
+
+switch_card(count)
+
+btnNext.onclick = ()  => {
+    count++
+    if (count > 200) {
+    count = 1;
+    }
+    switch_card(count)
+}
+
+btnPrev.onclick = ()  => {
+    count--
+    if (count < 1)  {
+    count = 200;
+    }
+    switch_card(count)
+}
+fetch('https://jsonplaceholder.typicode.com/posts')
+    .then((response)=>response.json())
+    .then((data)=> console.log(data))
+
+
+

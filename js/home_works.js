@@ -21,15 +21,15 @@ const moveChaildBlock  = document.querySelector('.child_block')
 let numX =0
 let numY =0
 const animation = () => {
-    if (numX <448 && numY <= 0) {
+    if (numX <1700 && numY <= 0) {
         numX++
         moveChaildBlock .style.left = `${numX}px`
-        setTimeout(animation, 10)
-    }else if (numX >=448 && numY < 448) {
+        setTimeout(animation, 1)
+    }else if (numX >=1700&& numY < 800) {
         numY++
         moveChaildBlock .style.top = `${numY}px`
-        setTimeout(animation, 10)
-    }else if (numX > 0 && numY >= 448) {   ////////////////////ПРОДОЛЖЕНИЕ
+        setTimeout(animation, 1)
+    }else if (numX > 0 && numY >= 800) {   ////////////////////ПРОДОЛЖЕНИЕ
         numX--
         moveChaildBlock .style.left =`${numX}px`
         setTimeout(animation,10)
