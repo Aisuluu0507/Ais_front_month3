@@ -46,8 +46,8 @@
     margin-bottom: 30px;
 }
 .p{
-    margin: 50px 250px 20px 365px;
-    font-size: 20px;
+    margin: 50px 250px 20px 200px;
+    font-size: 30px;
 ;
 }
 .span{
@@ -140,58 +140,29 @@ h5{
 }
 
 
-.customer{
-    border-radius: 4px;
-    border: 1px solid rgba(82, 80, 59, 0.10);
-    padding: 30px;
-    width: calc(50% - 15px);
-}
-.customer__title{
-    color:#9e676f ;
-    margin-top: 20px;
-}
-.customer__text{
-    color: #5a3a51;
-    margin-top: 10px;
-}
-
-
-span{
-
-    display: block;
-    top: 0;
-    bottom: 0;
-    background-repeat: no-repeat ;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-    .customers__inner {
-        margin-top: 23px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        gap: 30px;
-        margin-bottom: 60px;
-    }
-
-
-
-
-
-
-/* VIDEO BLOCK */
-
-
-.block_video {
-    background: black;
-    padding: 100px 0;
-}
-
-
-.inner_block_video {
+.block_photo{
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+.block2 img{
+    width: 500px;
+}
+.text_block1{
+    font-size: 50px;
+    margin-right: 260px;
     margin-top: 50px;
+}
+.text_block2{
+    font-size: 30px;
+    margin-left: -270px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.text1{
+    font-size: 50px;
+    margin-left: -270px;
+    color: red;
 }
 
 /* MODAL */
@@ -253,5 +224,5 @@ span{
     width: 100% !important;
     margin-top: 10px;
 }
-/*-------BOTTLE-------*/
+
 

@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f20379e-54c6-43ff-8d2b-b608346de57c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/image1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/imagesss.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/развалины.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/торты.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/цюрих.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/,,,,,.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Без названия (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Медовик.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/клубничный.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/пирожное.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/черничный.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/core.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home_works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home_works.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/lessons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lessons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/чизкейк.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/чизкейк.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/home_works.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home_works.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_works.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lessons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/monster.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/monster.html" afterDir="false" />
@@ -32,6 +30,15 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,21 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MAMP/htdocs/DZ3_Aisuluu_31-03/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/MAMP/htdocs/DZ3_Aisuluu_31-03/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MAMP\htdocs\DZ3_Aisuluu_31-03\images" />
@@ -233,11 +243,62 @@
       <workItem from="1701238976026" duration="3253000" />
       <workItem from="1701248553787" duration="110000" />
       <workItem from="1701248668851" duration="803000" />
-      <workItem from="1701249486687" duration="310000" />
+      <workItem from="1701249486687" duration="8548000" />
+      <workItem from="1701272036173" duration="7301000" />
+      <workItem from="1701325986356" duration="2000" />
+      <workItem from="1701326121410" duration="97000" />
+      <workItem from="1701326289327" duration="2000" />
+      <workItem from="1701326616766" duration="40000" />
+      <workItem from="1701326670139" duration="1172000" />
+      <workItem from="1701327966062" duration="1110000" />
+      <workItem from="1701343583077" duration="1619000" />
+      <workItem from="1701345449873" duration="456000" />
+      <workItem from="1701345944907" duration="380000" />
+      <workItem from="1701346349620" duration="591000" />
+      <workItem from="1701348835486" duration="133000" />
+      <workItem from="1701349008951" duration="350000" />
+      <workItem from="1701349395368" duration="205000" />
+      <workItem from="1701349624731" duration="43000" />
+      <workItem from="1701349708262" duration="57000" />
+      <workItem from="1701350123676" duration="100000" />
+      <workItem from="1701350228429" duration="79000" />
+      <workItem from="1701350322646" duration="291000" />
+      <workItem from="1701350624744" duration="697000" />
+      <workItem from="1701351337965" duration="7677000" />
+      <workItem from="1701359114457" duration="54000" />
+      <workItem from="1701359217131" duration="169000" />
+      <workItem from="1701359527223" duration="1855000" />
+      <workItem from="1701362690014" duration="43000" />
+      <workItem from="1701362771407" duration="146000" />
+      <workItem from="1701362948903" duration="1527000" />
+      <workItem from="1701364507479" duration="1618000" />
+      <workItem from="1701366586101" duration="369000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/lesson.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

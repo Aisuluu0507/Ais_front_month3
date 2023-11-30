@@ -8,13 +8,12 @@ const EMAIL_REGEXP =/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$
 gmailButton.addEventListener('click',()=>{
     if(EMAIL_REGEXP.test(gmailInput.value)){
         gmailSpan.innerHTML ='OK'
-        gmailSpan.style.color ='green'
+        gmailSpan.computedStyleMap.color ='green'
     }else{
-        gmailSpan.innerHTML ='ERROR'
-        gmailSpan.style.color ='red'
+        gmailSpan.innerHTML ='NOT OK'
+        gmailSpan.computedStyleMap.color ='red'
     }
 })
-
 
 //////////////////////////DZ2
 const moveChaildBlock  = document.querySelector('.child_block')
@@ -78,47 +77,3 @@ reset.addEventListener('click', () => {
 //////////////////////////////////////THE END
 
 
-//TAB SLIDER
-const tabsContent = document.querySelectorAll('.tab_content_block')
-const tabs = document.querySelectorAll('.tab_content_item')
-const tabsParent = document.querySelector('.tab_content_items')
-
-let currentTab = 0;
-const hideTabContent = () => {
-    tabsContent.forEach((item) => {
-        item.style.display = 'none'
-    })
-    tabs.forEach((item) => {
-        item.classList.remove('tab_content_item_active')
-    })
-}
-
-const showTabsContent = (i = 0) => {
-    tabsContent[i].style.display = 'block'
-    tabs[i].classList.add('tab_content_item_active')
-}
-
-const switchTab = () => {
-    hideTabContent();
-    currentTab = (currentTab + 1) % tabs.length
-    showTabsContent(currentTab)
-};
-
-
-hideTabContent()
-showTabsContent()
-setInterval(switchTab, 3000)
-
-tabsParent.onclick = (event) => {
-    if (event.target.classList.contains('tab_content_item')) {
-        tabs.forEach((item, i) => {
-            if (event.target === item) {
-                hideTabContent()
-                currentTab = i
-                showTabsContent(currentTab)
-            }
-        })
-    }
-}
-
-//////////////////////////////////////THE ENDb
